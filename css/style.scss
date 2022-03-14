@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  // background-image: linear-gradient(120deg, #41295a 0%, #2f0743 100%);
+  // color: white;
+  font-family: system-ui;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.hide{
+  display: none;
+}
+
+.reload{
+  cursor: pointer;
+}
+
+.wifi{
+  width: 3%;
+  margin-left: 1%;
+}
