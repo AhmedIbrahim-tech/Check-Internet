@@ -2,7 +2,6 @@
 let title = document.querySelector(".title");
 let ul = document.querySelector("ul");
 let button = document.querySelector(".reload");
-let image = document.querySelector("img");
 
 //Event Listeners
 
@@ -17,7 +16,6 @@ function OnLine() {
 }
 
 function OffLine() {
-    image.style.display = "none";
     title.innerHTML = "OffLine Now";
     title.style.color = "#666";
     ul.classList.remove("hide");
